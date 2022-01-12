@@ -21,7 +21,7 @@ class CustomTextField extends StatelessWidget {
           labelText: 'Digite seu CPF',
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(5),
-            borderSide: BorderSide(width: 3, color: Colors.blue),
+            borderSide: const BorderSide(width: 3, color: Colors.blue),
           ),
         ),
       ),

@@ -6,14 +6,14 @@ final cpfInvalido = CpfModel();
 
 void main() {
   test('deve retornar verdadeiro', () {
-    expect(meuCpf.isValid('10640397662'), true);
+    expect(meuCpf.isValid('03545535428'), true); //verificarcpf
   });
   test('deve retornar verdadeiro se o decimo digito for verdadeiro', () {
-    expect(meuCpf.validate('10640397662', 9), true);
+    expect(meuCpf.validate('03545535428', 9), true);
   });
   test('deve retornar verdadeiro se o decimo primeiro digito for verdadeiro',
       () {
-    expect(meuCpf.validate('10640397662', 10), true);
+    expect(meuCpf.validate('03545535428', 10), true);
   });
 
   test('deve retornar falso', () {
